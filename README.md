@@ -1,10 +1,3 @@
-
-# Blog Finder
-## A tool to find people on blogs
-
-Blog Finder is live at http://www.justthink.it/wordpressTools/blogfinder.html
-
-
 # Blog Finder
 ## A tool to find people on blogs
 
@@ -20,7 +13,7 @@ Blog Finder solves this problem: it scans all the posts in the time period speci
 Blog Finder lets you find other blogs too because when listing the users that commented a blog, it shows also the user URL which is usually the user's site or blog, and ofter the user's blog for users that leave comments on blog sites like WordPress.com
 
 ## How Blog Finder works
-Blog Finder uses the **WordPress REST API** and the **WordPress.com  REST API** to fetch data about blogs, comments and likes (they are quite similar, but not equal)
+Blog Finder is fully written in JavaScript and uses the **WordPress REST API** and the **WordPress.com  REST API** to fetch data about blogs, comments and likes (they are quite similar, but not equal)
 
 ![blogFinder in action](https://raw.githubusercontent.com/whiteseagull/blogfinder/master/assets/blogFinder.png)
 ## A tool to find people on blogs
@@ -28,9 +21,6 @@ When reading a blog, you find comments and also, on WordPress.com, likes, i.e. s
 
 Usually you see one post at a time, but maybe you are interested in seeing all  the users that commented or put a like. 
 Blog Finder solves this problem: it scans all the posts in the time period specified and shows a list of users that commented or liked a post. 
-
-## Blog Finder finds other blogs too
-Blog Finder lets you find other blogs too because when listing the users that commented a blog, it shows also the user URL which is usually the user's site or blog, and ofter the user's blog for users that leave comments on blog sites like WordPress.com
 
 ## What blogs Blog Finder works with
 Currently Blog Finder works with WordPress.com blogs and with every WordPress privately owned blog, and there are millions of this blogs out there! :) 
@@ -40,9 +30,16 @@ If I see interest in the product I may extend Blog Finder data fetching to [Blog
 ## How Blog Finder works
 Blog Finder uses the **[WordPress REST API](https://v2.wp-api.org/)** and the **[WordPress.com  REST API](https://developer.wordpress.com/docs/api/)** to fetch data about blogs, comments and likes (they are quite similar, but not equal).
 
+### The WordPress REST API
+The WordPress REST API lets a developer query a WordPress site just by issuing some REST call like 
+
+``asite.com/wp-json/wp/v2/posts?=search[keyword]``
+
+This way you don't have to interact 
+
 ## Blog Finder autodetect
 Some blogs show a private domain name (I mean not a WordPress.com subdomain name), but are actually hosted on WordPress.com, so one should access them using the WordPress.com REST API.
- Blog Finder tries first using the right call analyzing the domain name, but if it gets an error, it tries then to check if the blog is a WordPress.com one. In this way the app is able to work with WordPress.com blogs ening in .wordpress.com, with privately held blogs and with blogs with an own domain name but hosted on WordPress.com
+ Blog Finder tries first using the right call analyzing the domain name, but if it gets an error, it tries then to check if the blog is hosted on WordPress.com. In this way the app is able to work both with WordPress.com blogs ening in .wordpress.com, and with privately held blogs and with blogs with an own domain name but hosted on WordPress.com
 
 ## Tools used
 - [React](https://webpack.js.org/) is used to build the user interface
