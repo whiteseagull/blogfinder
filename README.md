@@ -1,5 +1,9 @@
+
+
+
+
+                        
 # Blog Finder
-## A tool to find people on blogs
 
 Blog Finder is live at http://www.justthink.it/wordpressTools/blogfinder.html
 
@@ -16,11 +20,6 @@ Blog Finder lets you find other blogs too because when listing the users that co
 Blog Finder is fully written in JavaScript and uses the **WordPress REST API** and the **WordPress.com  REST API** to fetch data about blogs, comments and likes (they are quite similar, but not equal)
 
 ![blogFinder in action](https://raw.githubusercontent.com/whiteseagull/blogfinder/master/assets/blogFinder.png)
-## A tool to find people on blogs
-When reading a blog, you find comments and also, on WordPress.com, likes, i.e. someone is telling she/he likes the post.
-
-Usually you see one post at a time, but maybe you are interested in seeing all  the users that commented or put a like. 
-Blog Finder solves this problem: it scans all the posts in the time period specified and shows a list of users that commented or liked a post. 
 
 ## What blogs Blog Finder works with
 Currently Blog Finder works with WordPress.com blogs and with every WordPress privately owned blog, and there are millions of this blogs out there! :) 
@@ -53,9 +52,3 @@ Some blogs show a private domain name (I mean not a WordPress.com subdomain name
 In the source code you find also [Blog Media Viewer](http://www.justthink.it/wordpressTools/bmv.html), another project meant to show media items listed on a blog. It can be useful to detect missing images but as of now you there isn't a "webchecker" feature and you can detect missing images seeing a blank image is shown. 
 
 Blog Media Viewer will probably be moved to another repository soon.
-
-
-
-
-                        
-
