@@ -53,7 +53,7 @@ Blog Finder tries first using the right call analyzing the domain name, but if i
 
 
 ## Other apps
-In the source code you find also [Blog Media Viewer](http://www.justthink.it/wordpressTools/bmv.html), another project meant to show media items listed on a blog. It can be useful to detect missing images but as of now you there isn't a "webchecker" feature and you can detect missing images seeing a blank image is shown. 
+In the source code you find also [Blog Media Viewer](http://www.justthink.it/wordpressTools/bmv.html), another project meant to show media items listed on a blog. It can be useful to detect missing videos but as of now you there isn't a "webchecker" feature and you can detect missing videos by seeing a blank image is shown. 
 
 Blog Media Viewer will probably be moved to another repository soon.
 
