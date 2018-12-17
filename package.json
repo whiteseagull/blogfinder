@@ -1,0 +1,64 @@
+{
+  "name": "wordpress_tools",
+  "version": "0.0.1",
+  "description": "Generated with Eclipse npm Tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1",
+    "build": "webpack --mode=production",
+    "start": "webpack-dev-server --config ./webpack.config.js --mode=development"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "es2015"
+    ],
+    "plugins": [
+      "transform-decorators-legacy",
+      "transform-class-properties"
+    ]
+  },
+  "author": "Francesco Cipriani",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.3",
+    "grunt": "~0.4.5",
+    "grunt-browserify": "^5.3.0",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-env": "^0.4.4",
+    "gulp": "^3.9.1",
+    "gulp-uglify": "*",
+    "vinyl-source-stream": "^2.0.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "jquery": "^3.3.1",
+    "md5": "^2.2.1",
+    "mobx": "^5.8.0",
+    "mobx-react": "^5.4.3",
+    "mobx-react-devtools": "^6.0.3",
+    "promise-queue": "^2.2.5",
+    "react": "16.6.3",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "16.6.3",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "wpapi": "^1.1.2",
+    "wpcom": "^5.4.2",
+    "wpcom-oauth-cors": "^1.0.2-beta"
+  }
+}

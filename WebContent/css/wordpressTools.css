@@ -1,0 +1,216 @@
+*.unselectable {
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in IE 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+
+.clearInline {
+	display: block;
+}
+
+
+body {
+	padding: 1em;
+/*	background: #EFEFEF; */
+	background: white;
+	font-family: sans-serif;
+}
+
+
+h1 {
+	font-weight: 700;
+}
+
+#header {
+	color: black;
+	text-align: center;
+	font-family: sans-serif;
+	width: 100%;
+	margin: 0 auto;
+	padding-bottom: 3em;
+}
+#header h1 {
+	font-size: 56px;
+}
+
+#header a:hover {
+	text-decoration: none;
+}
+
+
+#app {
+	text-align: center;
+}
+
+#blogChooser {
+	display: inline-block;
+	font-size: 16px;
+	margin: 0 auto;
+	text-align: center;
+	font-weight: bold;
+}
+#blogChooser input[type=text] {
+	width: 20em;
+}
+#blogChooser input[type=submit]  {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+#rectangularBorder {
+	border: solid 3px navy;
+	background: beige;
+	padding: 1em;
+	-moz-border-radius: 15px;
+	border-radius: 15px;	
+}
+
+
+#blogLinks {
+	margin-top: 3em;
+}
+
+#blogLinks ul {
+	list-style-type: none;
+}
+
+
+#filter {
+	margin-top: 2em;
+}
+
+
+.disqusSeparator {
+	border-bottom: solid 0.5em;
+	border-color: navy;
+	margin-top: 1em;
+}
+
+#userList {
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 0.5em;
+	background: beige;
+	padding: 0.5em;
+	border: solid 1px lightgrey;
+}
+
+#userList ul {
+	padding: 0.5em;
+	list-style-type: none;		
+}
+
+
+<!-- #userList ul li {display: inline;} -->
+
+.user {
+	border-bottom: solid 1px lightgrey;
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
+	
+	margin: 0.3em;
+	text-align: left;
+	overflow: hidden;
+}
+
+.userSelected {
+	background: yellow;
+}
+
+.userImage {
+	float: left;
+}
+
+.niceName {
+	font-weight: bold;
+}
+
+.userInfos {
+	float: left;
+	padding-left: 0.5em;
+}
+
+
+
+#postList {
+	max-width: 800px;
+	width: 50%;
+    margin: 0 auto;
+	padding: 0.5em;
+}
+
+#postList h3 {
+	font-size: 18px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+#postList .post {
+	display: flex;
+	border-bottom: solid 1px;
+	margin-top: 0.5em;
+	padding-top: 2px;
+	text-align: left;
+}
+
+
+#postList .videos {
+	display: block;
+	border-bottom: solid 1px;
+	margin-top: 0.5em;
+	padding-top: 2px;
+	text-align: left;
+}
+
+#postList .inlineDisplay {
+	display: inline-block;
+}
+
+
+
+/*#postList .post:hover {
+	background: #EFEACF;
+}
+*/
+
+#postList .mainInfos {
+  flex: 1;
+}
+#postList .details {
+  padding-left: 0.5em;
+  white-space: nowrap;
+}
+
+
+#postListHeader {
+	color: navy;
+}
+
+#jumpToLinkInstructions {
+	margin-left: 1em;
+}
+
+#linkInstructions {
+	margin-top: 3em;	
+}
+
+#guestBook {
+	display: none;
+}
+
+#iframeStaticContent {
+	width: 70em;
+	height: 20em;
+}
+
+.imgBorder {
+	border: solid 1px black;
+}

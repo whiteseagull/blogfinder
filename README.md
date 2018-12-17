@@ -1,10 +1,11 @@
 # Blog Finder
 
+## A tool to find people on blogs
+
 Blog Finder is live at http://www.justthink.it/wordpressTools/blogfinder.html
 
 ![blogFinder in action](https://raw.githubusercontent.com/whiteseagull/blogfinder/master/assets/blogFinder.png)
 
-## A tool to find people on blogs
 When reading a blog, you find comments and also, on WordPress.com, likes, i.e. someone is telling she/he likes the post.
 
 Usually you see one post at a time, but maybe you are interested in seeing all  the users that commented or put a like. 
