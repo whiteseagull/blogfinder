@@ -52,9 +52,3 @@ Blog Finder tries first using the right call analyzing the domain name, but if i
 
 - Blog finder uses the [promise queue](https://www.npmjs.com/package/promise-queue) package to be polite and make only two request at a time when fetching data.
 
-
-## Other apps
-In the source code you find also [Blog Media Viewer](http://www.justthink.it/wordpressTools/bmv.html), another project meant to show media items listed on a blog. It can be useful to detect missing videos but as of now you there isn't a "webchecker" feature and you can detect missing videos by seeing a blank image is shown. 
-
-Blog Media Viewer will probably be moved to another repository soon.
-
