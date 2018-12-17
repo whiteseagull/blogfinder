@@ -1,8 +1,3 @@
-
-
-
-
-                        
 # Blog Finder
 
 Blog Finder is live at http://www.justthink.it/wordpressTools/blogfinder.html
@@ -34,7 +29,11 @@ The WordPress REST API lets a developer query a WordPress site just by issuing s
 
 ``asite.com/wp-json/wp/v2/posts?=search[keyword]``
 
-This way you don't have to interact 
+which searches for posts containing a specific keyword.
+
+This way you don't have to interact with WordPress using PHP or querying the database, you can also use pure JavaScript only.
+
+The WordPress REST API was introduced into WordPress in the 4.7 release.  
 
 ## Blog Finder autodetect
 Some blogs show a private domain name (I mean not a WordPress.com subdomain name), but are actually hosted on WordPress.com, so one should access them using the WordPress.com REST API.
