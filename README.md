@@ -15,8 +15,6 @@ You can select last week, last month or last six months as periods of time.
 ## Blog Finder finds other blogs too
 Blog Finder lets you find other blogs too because when listing the users that commented a blog, it shows also the **user URL** which is usually the user's site or **blog**, and often the user's blog for users that leave comments on blog sites like WordPress.com
 
-## How Blog Finder works
-Blog Finder is fully written in JavaScript and uses the **WordPress REST API** and the **WordPress.com  REST API** to fetch data about blogs, comments and likes (they are quite similar, but not equal)
 
 ## What blogs Blog Finder works with
 Currently Blog Finder works with WordPress.com blogs and with **every** WordPress privately owned blog, and there are millions of these blogs out there! :) 
